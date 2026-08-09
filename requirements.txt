@@ -1,0 +1,8 @@
+# Use Case 1 (classical NLP) - install in a "complaints_nlp" conda env
+pandas
+scikit-learn
+nltk
+
+# Use Case 2 (deep learning) - install in a separate "dl_env" conda env
+# (kept separate deliberately - TensorFlow is heavier and benefits from an isolated environment)
+tensorflow-cpu
